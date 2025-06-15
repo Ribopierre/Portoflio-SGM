@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- Page élargie à 1440px -->
+    <div class="container" style="max-width: 2500px; width: 100%; margin: 0 auto;">
+
+      <!-- Bloc de service -->
+      <li class="service-item">
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+        </div>
+        <a href="https://ton-lien.com/elaborer">
+          <h4 class="h4 service-item-title">Développer</h4>
+          <p class="service-item-text">
+            Elaborer des matériaux (normes et protocole,)
+          </p>
+        </a>
+      </li>
+      <a href="index.html#competences" class="btn-retour">← Retour </a>
+
+      <!-- SECTION 1 : Image à gauche + Texte à droite -->
+      <div class="photo-texte-section" style="display: flex; align-items: center; gap: 20px; margin-top: 40px; flex-wrap: wrap;">
+
+        <!-- Image à gauche -->
+        <div class="photo-box" style="flex: 1; min-width: 300px; max-width: 450px;">
+          <img src="./assets/images/imge du net.png" alt="Photo 1" style="width: 70%; border-radius: 12px;">
+          <img src="./assets/images/éolienne$$.png" alt="Photo 1" style="width: 100%; border-radius: 12px;">
+          <img src="./assets/images/pale éolienne.png" alt="Photo 1" style="width: 100%; border-radius: 12px;">
+          
+        </div>
+
+        <!-- Texte à droite -->
+        <div class="texte-box" style="flex: 2; min-width: 250px;">
+          <h4 class="h4 service-item-title">Aspect multi matériaux d'un produit</h4>
+          <p class="service-item-text" style="text-align: justify;">
+            L’éolienne domestique est un produit fonctionnel qui est vendu dans le commerce.<br>
+            La réaliser uniquement en composite n’est pas une solution, car certaines pièces doivent avoir des épaisseurs ou des côtes très précises.<br>
+            Pour ce projet, j’ai utilisé trois types de matériaux : les composites, les polymères et les métaux.<br><br>
+            Les composites ont été utilisés pour les pales.<br>
+            Ces pièces doivent être résistantes, car elles sont amenées à subir la pression du vent.<br>
+            Elles doivent aussi être capables de se déformer et être assez légères pour ne pas engendrer de surcoût lors de la livraison (poids du carton).<br>
+            La méthode de stratification utilisée est l’emploi de taffetas pour la globalité de la pale d’éolienne, ainsi qu’une bande unidirectionnelle pour améliorer les propriétés dans la longueur de la pale.<br>
+            Le procédé de mise en œuvre utilisé est le contact sous vide. Ce procédé permet d’avoir un très bon rapport Vf/Vm tout en restant économique et plus simple à mettre en œuvre que l’infusion sous vide (images de mise en oeuvre).<br>
+            Les carters de l’éolienne ont eux aussi été réalisés en composite, avec deux moules femelles.<br>
+            Le choix des moules femelles s’explique par le fort retrait de la résine polyester.<br>
+            Cette résine a un retrait de 5 %, ce qui empêche l’utilisation de moules mâles.<br>
+            Ces pièces ont été réalisées avec plusieurs plis de MAT, car elles doivent être résistantes et avoir une épaisseur de quelques millimètres pour pouvoir être assemblées.<br>
+            Un pli de taffetas a été utilisé pour simplifier et améliorer l’aspect extérieur de la pale.<br>
+            Ces deux types de pièces ont été réalisés au contact sous vide.<br>
+            L’infusion n’aurait pas été adéquate, vu la complexité des pièces.<br><br>
+            
+            La partie où les pales s’assemblent a été réalisée en fonderie (puis usinée par la suite).<br>
+            Cette partie de l’éolienne permet d’assembler les pales avec le corps de l’éolienne.<br>
+            Les efforts au sein de cette pièce sont importants, car c’est par là que les pales transmettent la force du vent au générateur.<br>
+            La fonderie puis l’usinage est la méthode la plus adaptée, avec un bon rapport coût/propriétés/masse.<br>
+            Le métal utilisé est de l’aluminium, toujours dans une optique de légèreté, recherchée pour une production potentielle à plus grande échelle.<br>
+            L’usinage a été réalisé à l’aide de l’URCO, un centre d’usinage.<br>
+            La fonderie a été réalisée à partir de sable ; les moules ont été imprimés en FDM.<br><br>
+            
+            La dernière matière utilisée est le polymère, plus précisément l’utilisation de filament polymère pour l’impression 3D.<br>
+            Les pièces réalisées avec cette méthode sont : les moules de carter, la queue, l’âme des pales, le nez, ainsi que le couvercle du carter (emmanché pour éviter l’entrée d’eau).<br>
+            La fabrication additive a permis de réaliser rapidement des pièces à partir de la CAO réalisée sur SolidWorks.<br>
+            L’objectif était d’avoir un volume sur lequel appliquer de la résine pour protéger le PLA des intempéries.<br>
+            Le filament utilisé est le PLA, un filament simple à imprimer avec un coût raisonnable.<br>
+            Les pièces n’ont pas toutes été imprimées de la même manière : la queue a une plus grande densité, car elle est fine et peut être soumise à des rafales de vent.<br>
+            Le nez de l’éolienne a été localement densifié en son centre pour que l’axe en métal, qui permet de transmettre le mouvement des pales au générateur, soit bien maintenu.<br>
+            La méthode utilisée pour l’assemblage est de chauffer cet axe et de l’insérer dans la zone localement densifiée.<br>
+            Un trou a été réalisé sur la CAO, mais son diamètre est 2 mm plus faible pour que l’axe soit encastré dans le nez.<br><br>
+            
+            Ce projet m’a fait découvrir comment on produit un objet composé de plusieurs pièces, chacune fabriquée différemment.<br>
+            Cet aspect multi-matériaux m’a permis de mobiliser mes compétences vues en première année pour les métaux, les polymères ainsi que les composites.<br>
+            Chaque pièce aurait pu être conçue avec une autre méthode ou simplement un autre matériau, mais les choix que nous avons faits nous paraissaient les plus adaptés pour obtenir un produit réalisable rapidement, démontable, tout en réduisant les coûts au maximum.<br>
+            J’estime que mes compétences en choix multi-matériaux ainsi que dans le choix de la mise en œuvre sont à <strong>3,5/4</strong>.<br>
+            
+            
+          </p>
+        </div>
+
+      </div>
+
+      <!-- SECTION 2 : Texte à gauche + Image à droite -->
+      <div class="photo-texte-section" style="display: flex; align-items: center; gap: 20px; margin-top: 40px; flex-wrap: wrap; flex-direction: row-reverse;">
+
+        <!-- Image à droite -->
+        <div class="photo-box" style="flex: 1; min-width: 250px; max-width: 300px;">
+          <img src="./assets/images/tissus.png" alt="Photo 2" style="width: 100%; border-radius: 12px;">
+          <img src="./assets/images/carter drappé.png" alt="Photo 2" style="width: 100%; border-radius: 12px;">
+        </div>
+
+        <!-- Texte à gauche -->
+        <div class="texte-box" style="flex: 2; min-width: 250px;">
+          <h4 class="h4 service-item-title">Influence du vécu du matériaux</h4>
+          <p class="service-item-text" style="text-align: justify;">
+            Dans le cadre du projet éolienne du second semestre de la deuxième année de BUT, j'ai réalisé en binôme un carter d’éolienne.<br>
+            Les carters d’éolienne ont été fabriqués à l’aide de moules femelles.<br>
+            Les matériaux utilisés pour ces pièces sont : la fibre de verre et la résine polyester.<br>
+            La fibre de verre peut être tissée de plusieurs manières, ou ne pas l’être. Deux types de tissus ont été utilisés pour réaliser cette pièce : le MAT et le taffetas.<br>
+            Pour la découpe, le MAT ne subit aucune altération, car ce tissu se déchire facilement et n’a pas de propriétés isotropes dans toutes les directions de l’espace.<br>
+            Pour le taffetas, la découpe nécessite de tendre le pli, ce qui déforme le tissage.<br>
+            J’ai vu en cours de composites que simplement 5° de décalage entre le tissu et la direction de la contrainte altère de 10 % les propriétés de la pièce finale.<br>
+            Dans le cas du taffetas, la découpe étire le tissu dans certaines directions, ce qui altère ses propriétés mécaniques.<br>
+            Pour la mise en œuvre, le taffetas, ayant un tissage structuré, se déforme légèrement lorsque la résine est appliquée au contact.<br>
+            Cependant, pour le MAT, la résine colle à chaque fibre.<br>
+            Cela a une conséquence, car l’épaisseur initiale du MAT est réduite : certains morceaux de fibres restent collés au pinceau ou sont déplacés dans certains coins.<br>
+            Ces deux altérations du matériau entre son état initial et la fin de sa mise en œuvre sont à prendre en compte lors de la conception.<br>
+            Le nombre de plis a été multiplié par 2 pour obtenir une résistance nécessaire de la pièce en tout point.<br>
+            On voit sur la photo les plis de MAT qui ne sont plus aussi bien organisés (pour du MAT). La découpe et la mise en forme ont déstructuré ce tissu. Cependant, comme énoncé précédemment, ce tissu permet d’augmenter l’épaisseur de la pièce tout en ayant un bon rapport qualité/prix.<br><br>
+            Cette application concrète de ce qui a été vu en cours de composites m’a montré que la mise en forme du matériau peut l’altérer et qu’il faut prévoir une marge de sécurité, car les matériaux ne sont pas identiques avant et pendant la mise en œuvre.<br>
+            J’estime que le niveau de mon apprentissage pour cette compétence est de <strong>3/4</strong>.<br>
+            
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="photo-texte-section" style="display: flex; align-items: center; gap: 20px; margin-top: 40px; flex-wrap: wrap;">
+
+        <!-- Image à droite -->
+        <div class="photo-box" style="flex: 1; min-width: 250px; max-width: 300px;">
+          <img src="./assets/images/presse citron male.png" alt="Photo 3" style="width: 70%; border-radius: 12px;">
+        <img src="./assets/images/presse citron femelle.png" alt="Photo 3" style="width: 100%; border-radius: 12px;">
+        </div>
+
+        <!-- Texte à gauche -->
+        <div class="texte-box" style="flex: 2; min-width: 250px;">
+          <h4 class="h4 service-item-title">Concevoir un prototype et classer des solutions</h4>
+          <p class="service-item-text" style="text-align: justify;">
+            Dans le cadre un situation d'apprentissage en deuxième année de BUT, j'ai pu convevoir des moules réalisé en FDM destinés au thermoformage.<br>
+            L'objectifs de cette ce moule est de realiser une piece qui sera entrte un presse citron en aluminium et le presse citron. Cette piece sera donc au contact alimentaire. Au vu de la bibliograpohie que nous avons réaliser en groupe, le choix de filament s'est 
+            porter sur du Polycarbonate. 
+            Deux conception sonr réalisable <br>
+            <br><strong>Moule mâle :</strong> Le moule male est le plus simple pour la conception et pour le thermoformage. La géométrie de cette piece est la maniere la plus classqieu de thermoformer une pièce. L'avantage d cette conception sont : 
+            le petit volume de la piece a imprimé et un réparyition des effort optimale (entre les vis et le collage de la plaque avec le moule lorsque le moule descend)<br><br>
+            <strong>Moule femelle :</strong> Le moule femelle est plus complexe pour la conception et pour le thermoformage. Cependant, il prends en compte le risquze chimique du à la matière du filament du moule. Le pc n'est pas comestible, mais il y a une risque de transfere de matiere 
+              du moule vers la plaque thermformé lors de la mise en oeuvre. Cette géométrie permet d'avoir un coté de la plaque qui sera au contact du citron lors de l'utilisation et l'autre coté au contact du moule en PC. Il permet aussi de négliger l'eapsect du moule en tehrmoformage. 
+              Le coté de la plque n'aura pas les strille du au différente couche de l'impression 3d.<br><br>
+          
+            La solution retenu est le moule femelle. Malgré sa complexité et sa plus garnd consommatio nde filament, cette géométrie réduit le risque chimique et rend utilisable le presse citron.  <br><br>
+            Les pièces thermoformé sont conforme au besoin ,les groupes réalisant les presse citron peuvent les utiliser. Je considère mon niveau de cette aprentissage critique à <strong>3,5/4</strong>.<br>
+            Ce projet m'as permis d'avoir une reflexion plus poussée allant au dela de la conception purement géométrique du produit. Cette aspect alimentaire a rendu ce projet plus interessans en rajoutant des contrainte produit a prendre en compte lors de la conception. 
+            
+          </p>
+        </div>
+
+      </div>
+
+      <div class="photo-texte-section" style="display: flex; align-items: center; gap: 20px; margin-top: 40px; flex-wrap: wrap; flex-direction: row-reverse;">
+
+        <!-- Image à droite -->
+        <div class="photo-box" style="flex: 1; min-width: 250px; max-width: 300px;">
+          <img src="./assets/images/gant pale.png" alt="Photo 2" style="width: 100%; border-radius: 12px;">
+          
+        </div>
+
+        <!-- Texte à gauche -->
+        <div class="texte-box" style="flex: 2; min-width: 250px;">
+          <h4 class="h4 service-item-title">Organisation des étapes de fabrication</h4>
+          <p class="service-item-text" style="text-align: justify;">
+            Dans le cadre du projet éolienne, nous avons dû simuler le lancement en production de notre produit.<br><br>
+            Cette simulation comprenait l’aménagement du local de fabrication, l’identification des étapes nécessaires à la production, l’estimation de leur durée, ainsi que le calcul des coûts. L’objectif était de vérifier si notre entreprise pouvait devenir rentable au bout de trois ans.<br><br>
+            Pour cela, nous nous sommes appuyés sur les compétences que j’ai acquises en première année de BUT, notamment en planification industrielle, ainsi que sur celles de mon binôme, qui a effectué un stage dans une entreprise spécialisée dans la fabrication de pièces composites haute performance.<br><br>
+            En combinant nos connaissances, nous avons estimé avec précision le temps nécessaire à chaque étape, en particulier pour la fabrication des pales. Nous avons simulé la production simultanée de 12 pales, ce qui nous a permis de déterminer la durée de production d’une éolienne complète.<br><br>
+            Grâce à ces estimations, nous avons pu modéliser un cycle de production réaliste, identifier les éventuels goulets d’étranglement, et établir un coût de revient précis. Cette approche nous a permis de valider la faisabilité économique du projet et de proposer une organisation efficace du processus industriel.<br><br>
+            Ce travail m’a permis de mieux comprendre les enjeux de l’industrialisation d’un produit et l’importance de la coordination entre les aspects techniques et économiques pour assurer la viabilité d’un projet sur le long terme.
+
+          </p>
+        </div>
+
+      </div>
+
+
+
+
+    
+
+
+  </main>
+
+</body>
+</html>

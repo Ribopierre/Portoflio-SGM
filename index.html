@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar ribpo.png" alt="Pierre Lemaître" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Pierre Lemaître">Pierre Lemaître</h1>
+
+          <p class="title">Etudiant en BUT SGM</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:pierre.lemaitre@etudiant.univ-rennes.fr" class="contact-link">pierre.lemaitre@etudiant.univ-rennes.fr</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Téléphone</p>
+
+              <a href="tel:07 83 97 71 35" class="contact-link">07 83 97 71 35</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">École</p>
+
+              <time datetime="1982-06-23">IUT de St Brieuc (22)</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Lieu de vie</p>
+
+              <address>Rennes, Bretagne</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/pierre-lema%C3%AEtre-27568a2b4/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>A propos</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Formation</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="A propos">
+
+        <header>
+          <h2 class="h2 article-title">A propos de moi</h2>
+        </header>
+
+        <section class="about-text" style="text-align: justify;">
+          <p>
+            Bonjour, je suis Pierre Lemaître, j'ai 21 ans. <br>Je suis étudiant en deuxième année de BUT Science et génies de matériaux à l'IUT de St Brieuc.
+            Je réalise ma deuxième et troisème année en alternance chez Cooper Standard à Vitré.
+          </p>
+
+          <p>
+            Je suis alternant en recherche et développement au sein du laboratoire européen de Cooper Standard, situé à Vitré. Cooper Standard est une entreprise internationale spécialisée dans le secteur automobile.<br>
+Je travaille sur l’allègement des joints d’étanchéité en remplaçant les matières en caoutchouc par des élastomères thermoplastiques, associés à un procédé de moussage.
+Mon travail englobe l’ensemble du processus, de la réalisation des échantillons jusqu’à l’analyse des résultats.
+          </p>
+
+          <p>
+            Après mon BUT, j’espère continuer mes études dans une école d’ingénieur en apprentissage. Cela me permettrait de poursuivre ma formation tout en acquérant de l’expérience professionnelle, et d’accéder à des postes à plus grandes responsabilités.
+            Je ne sais pas encore dans quelle école ni dans quelle spécialité je souhaiterais m’orienter.<br>
+            Mon alternance au sein de Cooper Standard me permet de découvrir différents corps de métier dans divers services. Ceux qui m'intéressent le plus à l’heure actuelle sont la recherche et développement (R&D) ainsi que le bureau d'études (BE). 
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Mes centres d'intérêts</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <a href="#">
+                <div class="service-content-box" style="display: flex; align-items: center; gap: 20px;">
+            
+                  <!-- Texte à gauche -->
+                  <div>
+                    <h4 class="h4 service-item-title">Pratique de l'alpinisme</h4>
+                    <p class="service-item-text">
+                      Je pratique l'alpinisme depuis 5 ans. Cette discipline renforce mes compétences en cohésion d'équipe.
+                    </p>
+                  </div>
+            
+                  <!-- Image à droite -->
+                  <img src="./assets/images/alpi.png" alt="Photo 3" style="width: 40%; border-radius: 12px;">
+            
+                </div>
+              </a>
+            </li>
+            
+
+            <li class="service-item">
+
+
+              <a href="#">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Sport auto</h4>
+
+                  <p class="service-item-text">
+                    Passionné depuis mon plus jeune âge pour les voitures, je suis plusieurs disciplines en sport auto.
+                  </p>
+                </div>
+              </a>
+
+            </li>
+
+            <li class="service-item">
+
+
+
+              <a href="#">
+                <div class="service-content-box" style="display: flex; align-items: center; gap: 20px;">
+                  
+                  <!-- Texte à gauche -->
+                  <div>
+                    <h4 class="h4 service-item-title">Pratique de sport d'hiver</h4>
+                    <p class="service-item-text">
+                      Je pratique le ski alpin ainsi que le ski de randonnée.
+                    </p>
+                  </div>
+                  
+                  <!-- Image à droite -->
+                  <img src="./assets/images/ski.png" alt="Photo 3" style="width: 40%; border-radius: 12px;">
+                  
+                </div>
+              </a>
+              
+
+            </li>
+
+            <li class="service-item">
+
+
+
+              <a href="#">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Les hautes technologies </h4>
+
+                  <p class="service-item-text">
+                    J'aime suivre et apprendre les nouveautés concernant les hautes technologies dans tout les domaines.
+                  </p>
+                </div>
+              </a>
+
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="formation">
+
+        <header>
+          <h2 class="h2 article-title">Formations/expériences</h2>
+        </header>
+
+        <a href="./assets/files/CV_LEMAITRE_Pierre_2025.pdf" download class="btn-download">Cliquez pour télécharger mon CV</a>
+        <p><br></p>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Formations</h3>
+          </div>
+
+
+          <ol class="timeline-list">
+            
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IUT St Brieuc - BUT Sciences et génie des matériaux - Alternance en BUT2 et BUT3</h4>
+
+              <span>2023 — 2026</span>
+
+              <p class="timeline-text" style="text-align: justify;">
+                Formation réalisé en alternance chez Cooper Standard, leader internationale dans le domaine de l'étanchéité
+                carrosserie automobile. Formation généralise sur les matériaux, de la fabricxation à la caractérisation en étudiant la mise en oeuvre.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IUT Lannion - BUT1 en Informatique</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text" style="text-align: justify;">
+                Formation arrêter au bout d'un ans car ce domaine ne m'intéressais pas. 1ère année validant durant laquelle
+                j'ai pu découvrir le code informatique pour différent milieu (BDD, web, algo) ainsi que la gestion  d'une entrerpise.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lycée Renan - St Brieuc - Baccalauréat</h4>
+
+              <span>2022</span>
+
+              <p class="timeline-text" style="text-align: justify;">
+                Spécialités mathématique et physiques-chimie - option maths expertes
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiences professionelles</h3>
+          </div>
+
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Alternant laboratoire R&D Cooper Standard</h4>
+
+              <span>2024 - 2026</span>
+
+              <p class="timeline-text" style="text-align: justify;">
+                Je réalise ma deuxième et ma troisième année de BUT en alternance chez Cooper Standard. <br>
+                Mon travail est la mise en forme, la caractérisation et l'analyse de ses résultats. <br>
+                Cette formation en apprentissage me permet de gagner en autonomie et de renforcer mon expérience professionnelle dans le secteur en lien direct avec mes études. Elle m’offre l’opportunité d’appliquer concrètement les compétences acquises en cours, tout en développant de nouvelles aptitudes spécifique à la recherche.
+
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Conseiller/Vendeur Leclerc Plérin</h4>
+
+              <span>Été 2023 et Été 2024</span>
+
+              <p class="timeline-text" style="text-align: justify;">
+                Conseiller/Vendeur rayon Multimédia/électroménager <br>
+                Conseil du client, réalisation de facture, réalisation de commande chez les fournisseurs <br>
+                Cela ma permis d'aquérir de l'expérience dans la compréhension d'un besoin
+                ainsi que l'autonomie dans mon travail
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Équipier/Formateur - Macdonald's Lannion - job étudiant</h4>
+
+              <span>2022 - 2023</span>
+
+              <p class="timeline-text" style="text-align: justify;">
+                Job étudiant réalisé en parrallèle de mon BUT informatique (15h/semaine) <br>
+                Réalisation de repas, formation du nouveau personnel et assistannat manager<br><br><br>
+              </p>
+
+            </li>
+
+          </ol>
+
+          
+
+
+        <!-- </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section id="portfolio">
+
+        </section>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+
+
+          </ul>
+
+              <div class="filter-select-box">
+
+                <button class="filter-select" data-select>
+
+                  <div class="select-value" data-selecct-value>Select category</div>
+
+                  <div class="select-icon">
+                    <ion-icon name="chevron-down"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="select-list">
+
+
+
+                </ul>
+
+              </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="file:///D:/Portfolio/V2/vcard-personal-portfolio-master/elaborer.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/atome.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Compétence 1</h3>
+
+                <p class="project-category">Élaborer les matériaux</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="file:///D:/Portfolio/V2/vcard-personal-portfolio-master/eco-concevoir.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/solidworks.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Compétence 2</h3>
+
+                <p class="project-category">Éco-concevoir : du matériau au produit</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="file:///D:/Portfolio/V2/vcard-personal-portfolio-master/mettre en forme.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ectoplasma.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Compétence 3</h3>
+
+                <p class="project-category">Mettre en forme les matériaux</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="file:///D:/Portfolio/V2/vcard-personal-portfolio-master/Caractériser.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/caractériser" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Compétence 4</h3>
+
+                <p class="project-category">Caractériser des matériaux et des produits</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="file:///D:/Portfolio/V2/vcard-personal-portfolio-master/developper un produit.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/handplane.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Compétence 5</h3>
+
+                <p class="project-category">Développer un produit de la conception à la réalisation</p>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d678851.4132604904!2d-2.1337554!3d48.1146836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede5d6086c0e5%3A0x40ca5cd36e6f370!2sRennes!5e0!3m2!1sfr!2sfr!4v1718350000001!5m2!1sfr!2sfr
+              "
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Formulaire de contact</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nom" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Adresse e-mail" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Votre message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Envoyer</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+<!-- DYNAMIC CONTENT SECTIONS -->
+
+
+<script>
+function showSection(id) {
+  const sections = document.querySelectorAll(".dynamic-section");
+  sections.forEach(section => section.style.display = "none");
+  document.getElementById(id).style.display = "block";
+}
+</script>
+
+</body>
+
+</html>

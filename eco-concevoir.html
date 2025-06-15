@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>vCard - Personal Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- MAIN -->
+  <main>
+
+    <div class="container">
+
+      <!-- Bloc de service -->
+      <li class="service-item">
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-design.svg" alt="icône design" width="40" />
+        </div>
+        <a href="https://ton-lien.com/elaborer">
+          <h4 class="h4 service-item-title">Éco-concevoir</h4>
+          <p class="service-item-text">
+            Du matériau au produit
+          </p>
+        </a>
+      </li>
+      <a href="index.html#competences" class="btn-retour">← Retour</a>
+
+      <!-- SECTION 1 : Image à gauche + Texte à droite -->
+      <div class="photo-texte-section" style="display: flex; align-items: center; gap: 20px; margin-top: 40px; flex-wrap: wrap;">
+        <div class="photo-box" style="flex: 1; min-width: 250px; max-width: 300px;">
+          <img src="./assets/images/Choix matériaux.png" alt="Photo 1" style="width: 100%; border-radius: 12px;" />
+        </div>
+        <div class="texte-box" style="flex: 2; min-width: 250px;">
+          <h4 class="h4 service-item-title">Choix d'un matériau</h4>
+          <p class="service-item-text">
+            La réalisation de moules en FDM permet de passer rapidement de la conception au prototypage et à l'obtention d'une pièce.
+            La fabrication additive en FDM propose une multitude de filaments selon l'application.
+            En trinôme, nous avons effectué des recherches bibliographiques pour déterminer le filament le plus adapté à notre besoin en fonction de la matière de la plaque.
+            Notre choix s'est porté sur le polycarbonate (PC), offrant des propriétés de résistance à la chaleur permettant de produire un grand nombre de pièces avec une seule impression.
+            Cette partie du projet m’a appris à combiner plusieurs critères : matériau, délai de livraison, coût, mise en œuvre. Cela s'applique également à mon travail d'alternant, où je dois prendre en compte plusieurs facteurs avant de passer une commande.
+          </p>
+        </div>
+      </div>
+
+      <!-- SECTION 2 : Texte à gauche + Image à droite -->
+      <div class="photo-texte-section" style="display: flex; align-items: center; gap: 20px; margin-top: 40px; flex-wrap: wrap; flex-direction: row-reverse;">
+        <div class="photo-box" style="flex: 1; min-width: 250px; max-width: 300px;">
+          <img src="./assets/images/presse citron.png" alt="Photo 2" style="width: 100%; border-radius: 12px;" />
+        </div>
+        <div class="texte-box" style="flex: 2; min-width: 250px;">
+          <h4 class="h4 service-item-title">L'utilisateur</h4>
+          <p class="service-item-text">
+            Les utilisateurs des pièces thermoformées sont les trinômes réalisant les presse-citron en fonderie.
+            Deux groupes ont conçu des presse-citron avec des géométries différentes, nécessitant plusieurs moules adaptés à leurs besoins.
+            Nous avons ajusté les modèles 3D au fur et à mesure de l'avancement de leurs projets, en modifiant les moules selon les contraintes rencontrées.
+            Lors du ponçage des pièces, une pièce a été désidée dans la halles au composite. Les EPI nécessaires pour le ponçage de polymère sont : masque, lunettes, blouse ainsi que des gants anticoupures.
+          </p>
+        </div>
+      </div>
+
+      <!-- SECTION 3 : Image à gauche + Texte à droite (comme section 1) -->
+      <div class="photo-texte-section" style="display: flex; align-items: center; gap: 20px; margin-top: 40px; flex-wrap: wrap;">
+        <div class="photo-box" style="flex: 1; min-width: 250px; max-width: 300px;">
+          <img src="./assets/images/remplissage moule.png" alt="Photo 3" style="width: 100%; border-radius: 12px;" />
+        </div>
+        <div class="texte-box" style="flex: 2; min-width: 250px;">
+          <h4 class="h4 service-item-title">Impact environnemental</h4>
+          <p class="service-item-text">
+            Lors de chaque impression, la densité de filament et les paramètres d'impression influencent fortement la quantité de matériau consommé.
+            Un moule destiné au thermoformage doit avoir une forte résistance en compression, car il sera soumis à la chaleur et à la pression exercée par la plaque.
+            Mes cours de fabrication additive m'ont permis de comprendre l’impact de chaque paramètre : densité de remplissage, hauteur de couche, température, etc.
+            J’ai choisi une densité de remplissage de 35 % et une hauteur de couche de 0,2 mm pour garantir de bonnes propriétés mécaniques tout en permettant la circulation de l’air entre les couches, essentielle pour le vide lors du thermoformage.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+</body>
+</html>

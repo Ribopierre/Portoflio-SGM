@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>vCard - Portfolio Personnel</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+
+  <!-- CSS personnalisé -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- MAIN -->
+  <main>
+    <div class="container">
+
+      <!-- Bloc de service -->
+      <li class="service-item">
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-design.svg" alt="Icône développement" width="40" />
+        </div>
+        <a href="https://ton-lien.com/elaborer">
+          <h4 class="h4 service-item-title">Élaborer</h4>
+          <p class="service-item-text">
+            Élaborer des matériaux (normes et protocoles)
+          </p>
+        </a>
+      </li>
+      <a href="index.html#competences" class="btn-retour">← Retour</a>
+
+      <!-- SECTION 1 : Image à gauche + Texte à droite -->
+      <div class="photo-texte-section" style="display: flex; align-items: center; gap: 20px; margin-top: 40px; flex-wrap: wrap;">
+
+        <!-- Image à gauche -->
+        <div class="photo-box" style="flex: 1; min-width: 500px; max-width: 600px;">
+          <img src="./assets/images/mise en oeuvre YBACUO.png" alt="Photo 1" style="width: 100%; border-radius: 12px;" />
+        </div>
+
+        <!-- Texte à droite -->
+        <div class="texte-box" style="flex: 2; min-width: 250px;">
+          <h4 class="h4 service-item-title">Fabrication d'une pastille supraconductrice</h4>
+          <p class="service-item-text">
+            Dans le cadre d'un projet de première année, nous avons réalisé en groupe une pastille supraconductrice de formule chimique YBa₂Cu₃O₇. Trois précurseurs chimiques ont été utilisés : Y₂O₃, BaCO₃ et CuO, tous sous forme de poudre.
+            Les poudres ont été mélangées à l'aide d'un marteau-pilon afin d'homogénéiser la granulométrie et d'assurer un mélange uniforme des précurseurs.
+            Une fois la poudre prête, elle a été mise en forme par pressage hydraulique (force de 3 tonnes) pour former des pastilles de 1 à 2 mm d'épaisseur et 10 mm de diamètre.
+            L'objectif de notre étude était de réduire au maximum le temps et la température de frittage des pastilles. Nous avons donc produit une dizaine de pastilles avec une quantité constante de précurseurs.
+          </p>
+        </div>
+      </div>
+
+      <!-- SECTION 2 : Texte à gauche + Image à droite -->
+      <div class="photo-texte-section" style="display: flex; align-items: center; gap: 20px; margin-top: 40px; flex-wrap: wrap; flex-direction: row-reverse;">
+
+        <!-- Image à droite -->
+        <div class="photo-box" style="flex: 1; min-width: 250px; max-width: 300px;">
+          <img src="./assets/images/YBACUO qui vole.png" alt="Photo 2" style="width: 100%; border-radius: 12px;" />
+        </div>
+
+        <!-- Texte à gauche -->
+        <div class="texte-box" style="flex: 2; min-width: 250px;">
+          <h4 class="h4 service-item-title">Résultats</h4>
+          <p class="service-item-text">
+            Comme le montre l'image, certaines pastilles obtenues ont présenté une lévitation lorsqu'elles étaient refroidies à l'azote liquide, signe de leur supraconductivité. Cependant, toutes les pastilles n'ont pas réagi de la même manière, ce qui met en évidence l'influence des paramètres de fabrication sur les propriétés finales. Pour améliorer le processus tout en économisant de la matière, une approche par plan d'expériences serait judicieuse. Elle permettrait d'évaluer l'influence de chaque paramètre afin d'optimiser la fabrication selon un cahier des charges précis.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+</body>
+</html>

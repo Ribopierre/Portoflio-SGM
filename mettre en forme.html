@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>vCard - Portfolio personnel</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- MAIN -->
+  <main>
+
+    <div class="container">
+
+      <!-- Bloc de service -->
+      <li class="service-item">
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-design.svg" alt="icône design" width="40" />
+        </div>
+        <a href="https://ton-lien.com/elaborer">
+          <h4 class="h4 service-item-title">Mettre en forme les matériaux</h4>
+          <p class="service-item-text">
+            En utilisant un procédé en autonomie
+          </p>
+        </a>
+      </li>
+      <a href="index.html#competences" class="btn-retour">← Retour</a>
+
+      <!-- SECTION 1 : Image à gauche + Texte à droite -->
+      <div class="photo-texte-section" style="display: flex; align-items: center; gap: 20px; margin-top: 40px; flex-wrap: wrap;">
+        <div class="photo-box" style="flex: 1; min-width: 650px; max-width: 800px;">
+          <img src="./assets/images/incidence remplissage.png" alt="Photo 1" style="width: 100%; border-radius: 12px;" />
+        </div>
+        <div class="texte-box" style="flex: 2; min-width: 250px;">
+          <h4 class="h4 service-item-title">Incidence du procédé sur les propriétés</h4>
+          <p class="service-item-text" style="text-align: justify;">
+            Grâce au module de cours de fabrication additive, j’ai pu obtenir des informations sur l’influence des propriétés mécaniques. J’ai combiné ces informations avec des recherches bibliographiques dédiées aux moules FDM pour le thermoformage. Cela m’a permis de construire une base de données fiable pour déterminer les paramètres d’impression à utiliser.<br />
+            J’ai choisi un remplissage de forme triangulaire, car il présente les meilleures propriétés en compression. Cela se rapproche le plus des contraintes que le moule subira lors des cycles de thermoformage.<br />
+            
+          </p>
+        </div>
+      </div>
+
+      <!-- SECTION 2 : Texte à gauche + Image à droite -->
+      <div class="photo-texte-section" style="display: flex; align-items: center; gap: 20px; margin-top: 40px; flex-wrap: wrap; flex-direction: row-reverse;">
+        <div class="photo-box" style="flex: 1; min-width: 250px; max-width: 300px;">
+          <img src="./assets/images/EPI.png" alt="Photo 2" style="width: 60%; border-radius: 12px;" />
+        </div>
+        <div class="texte-box" style="flex: 2; min-width: 250px;">
+          <h4 class="h4 service-item-title">Règles HSE</h4>
+          <p class="service-item-text" style="text-align: justify;">
+            Toutes les imprimantes 3D sont situées dans le « Fablab ». Dans cet espace, il est conseillé de porter ses EPI pour éviter tout risque de blessure. Par exemple, lors du décrochage d’une impression en polycarbonate (où une colle est appliquée sur la première couche), il est nécessaire de porter des gants anti-coupures et des lunettes de sécurité.
+            L’image à gauche me montre en train de poncer une pièce réalisée en impression 3D.
+Une zone est dédiée au ponçage dans le hall des composites. Dans cet espace, le port des équipements de protection individuelle (EPI) est obligatoire : lunettes de protection, chaussures de sécurité, blouse, masque ainsi que des gants anticoupure.
+Ces équipements permettent de se protéger à la fois des risques de coupure et de la poussière générée lors du ponçage.
+          </p>
+        </div>
+      </div>
+
+      <!-- SECTION 3 : Image à gauche + Texte à droite (comme section 1) -->
+      <div class="photo-texte-section" style="display: flex; align-items: center; gap: 20px; margin-top: 40px; flex-wrap: wrap;">
+        <div class="photo-box" style="flex: 1; min-width: 250px; max-width: 300px;">
+          <img src="./assets/images/Piece thermloformé.png" alt="Photo 3" style="width: 100%; border-radius: 12px;" />
+        </div>
+        <div class="texte-box" style="flex: 2; min-width: 250px;">
+          <h4 class="h4 service-item-title">Produit fonctionnel</h4>
+          <p class="service-item-text" style="text-align: justify;">
+            Les impressions obtenues ont la qualité attendue. L’objectif était d’obtenir des pièces avec de bonnes propriétés mécaniques tout en conservant une certaine porosité. Tous les moules ont été testés en thermoformage. Chaque moule a permis de former au moins une plaque, et certains (comme ceux en PC) ont permis plusieurs cycles grâce à leur meilleure tenue en température.<br />
+            Tous les moules ont donc été fonctionnels, car chacun a permis la fabrication d’une pièce conforme aux besoins des utilisateurs (les groupes réalisant les presse-citron).
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+</body>
+</html>
